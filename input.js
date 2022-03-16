@@ -29,7 +29,19 @@ const handleUserInput = function (key) {
 
   if (key === 'd') {
     connection.write('Move: right');
-  }
+  };
+
+  if (key === 'z') {
+    connection.write('Say: Howdy!');
+  };
+
+  if (key === 'x') {
+    connection.write('Say: NOOOO!');
+  };
+
+  if (key === 'c') {
+    connection.write('Say: :)');
+  };
 };
 
 module.exports = {
