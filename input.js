@@ -46,4 +46,4 @@ const handleUserInput = function (key) {
 
 module.exports = {
   setupInput
-}
+};
