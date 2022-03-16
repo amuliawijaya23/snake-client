@@ -17,13 +17,11 @@ const connect = function () {
   conn.on('connect', () => {
     console.log('Successfully connected to game server');
       conn.write('Name: Bly');
-      // setTimeout(() => {
-      //   conn.write('Move: up');}, 200);
   });
 
   return conn;
 };
 
 module.exports = {
-  connect,
+  connect
 }
